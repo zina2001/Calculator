@@ -1,13 +1,37 @@
-.container{
+body {
+    width: 100%;
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.left{
-    background-color: blue;
-}
-.right{
-    background-color: yellowgreen;
-}
-.layout{
+
+
+.form {
+    padding: 30px;
     width: 50%;
-    height: 300px;
+    background: rgb(87,20,165);
+}
+
+
+#code{
+    font-size: 24px;
+}
+
+.first_line input{
+
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.second-line input{
+
+    margin: 2px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+
+    border-radius: 5px;
 }
