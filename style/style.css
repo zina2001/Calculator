@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.left{
+    background-color: blue;
+}
+.right{
+    background-color: yellowgreen;
+}
+.layout{
+    width: 50%;
+    height: 300px;
+}
