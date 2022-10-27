@@ -1,7 +1,8 @@
-const input = document.querySelector('#code');
-const buttons = document.querySelectorAll('input[type="button"]');
-
+const buttons = document.querySelectorAll("input[type = button]")
 console.log(buttons)
+const input = document.querySelector('input')
+console.log(input)
+
 
 const display = (character) => {
     input.value += `${character}`
@@ -10,7 +11,7 @@ const display = (character) => {
 const solve = () => {
     const x = input.value;
     const y = eval(x);
-    return input.value = `${y}`
+    return input.value =` ${y}`
 }
 
 const clear = () => {
@@ -28,21 +29,6 @@ buttons.forEach(item =>{
         }
 
 
-    });
+    })
 
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+})

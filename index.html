@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Title</title>
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-<div class="container">
-  <form class="form" action="">
-    <label for="code">Result</label>
-    <input id="code" type="code">
-    <div class="first_line input">
-    <input  type="button" value="1" name="b1">
-    <input  type="button" value="2" name="b2">
-    <input  type="button" value="3" name="b3">
-    <input  type="button" value="4" name="b4">
-    <input  type="button" value="5" name="b5">
-    <input  type="button" value="6" name="b6">
-    <input  type="button" value="7" name="b7">
-    <input  type="button" value="8" name="b8">
-    <input  type="button" value="9" name="b9">
-    <input  type="button" value="0" name="b0">
-    </div>
-    <div class="second-line input">
-    <input  type="button" value="+">
-    <input  type="button" value="-">
-    <input  type="button" value="/">
-    <input  type="button" value="*">
-    <input  type="button" value="=">
-    <input  type="button" value="c">
-    </div>
-  </form>
-</div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Title</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
 
-    <script src="script/script.js"></script>
-  </body>
+<form action="">
+
+  <div class="first_line">
+    <input id="code" type="code">
+  </div><!--first-line closed tag-->
+  <div class="second-line">
+
+    <input type="button" value="1" name="b1">
+    <input type="button" value="2" name="b2">
+    <input type="button" value="3" name="b3">
+    <input type="button" class="op" value="+">
+    <input type="button" value="4" name="b4">
+    <input type="button" value="5" name="b5">
+    <input type="button" value="6" name="b6">
+    <input type="button" class="op" value="-">
+    <input type="button" value="7" name="b7">
+    <input type="button" value="8" name="b8">
+    <input type="button" value="9" name="b9">
+    <input type="button" class="op" value="*">
+
+    <input type="button" class="op" value="0" name="b1">
+    <input type="button" class="op" value="/">
+    <input type="button" class="op" value= "c">
+    <input type="button" class="op" value="=">
+  </div>
+</form>
+
+
+<script src="script/script.js"></script>
+</body>
 </html>
